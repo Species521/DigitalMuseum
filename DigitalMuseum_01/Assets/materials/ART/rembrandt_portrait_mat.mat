@@ -64,6 +64,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_edbd3f191e194fc7bc330834234b37c4_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: fd058ea513ddac44db05c2a0892b3af1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -78,6 +82,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _height:
         m_Texture: {fileID: 2800000, guid: 719a8c8401a0ec94cb498bd1db3736eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normal_map:
+        m_Texture: {fileID: 2800000, guid: fd058ea513ddac44db05c2a0892b3af1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -130,9 +138,9 @@ Material:
     - _canvas_tex_noise: -0.1
     - _canvas_tex_normal_strength: 0.15
     - _canvas_tex_scale: 4
-    - _normal_strength: -0.16
+    - _normal_strength: -0.03
     - _smoothness_nuance: 0.96
-    - _smoothness_total: 35.66
+    - _smoothness_total: 2
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
