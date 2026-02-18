@@ -15,7 +15,7 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
@@ -135,12 +135,14 @@ Material:
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
+    - _canvas_bulginess_scale: 7.14
+    - _canvas_bulginess_strength: 12.9
     - _canvas_tex_noise: -2.54
     - _canvas_tex_normal_strength: 0.15
     - _canvas_tex_scale: 3.84
-    - _normal_strength: -0.06
-    - _smoothness_nuance: 2.12
-    - _smoothness_total: 0.92
+    - _normal_strength: 0.08
+    - _smoothness_nuance: 1.59
+    - _smoothness_total: 0.83
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
