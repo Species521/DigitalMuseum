@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: textures_art
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: textures_art
+  m_GUID: 562c5e235e7464640a66fde37c06a884
+  m_SerializeEntries:
+  - m_GUID: 0b3e27d9c440e1c4081ec1c9d32f108a
+    m_Address: Assets/textures/FRAMES/rembrandt_portrait_frame_tex/standardSurface1_Normal_OpenGL.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bb382768c850f0449c0500df753693d
+    m_Address: Assets/textures/ART/rembrandt_Wife_2K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26d97d88c99f3c54f9d40553ab8d82d0
+    m_Address: Assets/textures/FRAMES/rembrandt_Wife_frame_tex/rembrandt_Wife_rough.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28d4db8db5445234fa10ce90cab408cf
+    m_Address: Assets/textures/FRAMES/vermeer_Maid_frame_tex/vermeer_Maid_frame_colour.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 296159ddb749a234a88a4f66552868a7
+    m_Address: Assets/textures/FRAMES/rembrandt_nightWatch_frame_tex/nightWatch_frame_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29db885e74b9afa4bbc5ed46e6295a0a
+    m_Address: Assets/textures/ART/vermeer_astronomer_2K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3370f0787c0ee3b458a77904689e1bb7
+    m_Address: Assets/textures/ART/vermeer_Letter_2K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35c3b7764ba16fa46bfab7ed9d55fdbb
+    m_Address: Assets/textures/ART/vermeer_Delft_2K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4018a686c1d0e0a489f4948a4645be90
+    m_Address: Assets/textures/ART/rembrandt_Wife_2K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48eef3efdbf557546b12438ddde49ad2
+    m_Address: Assets/textures/FRAMES/vermeer_Delft_tex/vermeer_Delft_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64cf2abb66484fb42b67c66ae600cd5f
+    m_Address: Assets/textures/ART/caravaggio_Baco_1K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67059360279d03d46a92729aee94e985
+    m_Address: Assets/textures/FRAMES/caravaggio_Supper_frame_tex/caravaggio_Supper_colour.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7280737a6ef314b4784f740fd0642b99
+    m_Address: Assets/textures/ART/vermeer_Girl_1K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7453ba208bca871419225840732bdac2
+    m_Address: Assets/textures/FRAMES/rembrandt_Wife_frame_tex/rembrandt_Wife_colour.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7577e3724ed424c4fa99eecea02e3db7
+    m_Address: Assets/textures/ART/vermeer_geographer_1K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7861be048ee66f84db2d2a1410e995f5
+    m_Address: Assets/textures/FRAMES/rembrandt_Wife_frame_tex/rembrandt_Wife_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8766b5a844c4d244ba89e5dae352677d
+    m_Address: Assets/textures/FRAMES/vermeer_astro-geo_frame_tex/vermeer_astro-geo_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e9234c5920fa8f46959764553e6c76f
+    m_Address: Assets/textures/ART/caravaggio_Supper_2K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fbd8599e6c2beb4fa6b355c06734bb1
+    m_Address: Assets/textures/ART/caravaggio_Supper_2K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a280bda7b877de41a3de0e89dafd870
+    m_Address: Assets/textures/FRAMES/rembrandt_nightWatch_frame_tex/nightWatch_frame_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a30bff28a81e3e246a16c56ba5068e8e
+    m_Address: Assets/textures/ART/vermeer_Delft_2K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3b8aa56eeb6c3242aabb9bc1d852ecc
+    m_Address: Assets/textures/ART/vermeer_geographer_1K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae09b4fd9f9daa943b12d7a9808b016a
+    m_Address: Assets/textures/ART/vermeer_Girl_1K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae3da1db5934a304e93010d542ab8557
+    m_Address: Assets/textures/FRAMES/rembrandt_portrait_frame_tex/standardSurface1_Metallic.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1d3f764bfe8c6949a4d357278ff2e4c
+    m_Address: Assets/textures/FRAMES/vermeer_astro-geo_frame_tex/vermeer_astro-geo_rough.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdd1d412df471224cbb83ec2fe852447
+    m_Address: Assets/textures/FRAMES/rembrandt_nightWatch_frame_tex/nightWatch_frame_colour.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e90e5e2f284163c41ab30daa0d0ff920
+    m_Address: Assets/textures/ART/vermeer_astronomer_2K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f220c348ef3f1aa4dad0ec5b851c39eb
+    m_Address: Assets/textures/FRAMES/rembrandt_portrait_frame_tex/standardSurface1_Base_color.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures_art
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 68fd4c940eb87134c9c0492d37196ff6, type: 2}
+    - {fileID: 11400000, guid: a7b38e7af1c1a97499741ab210419086, type: 2}

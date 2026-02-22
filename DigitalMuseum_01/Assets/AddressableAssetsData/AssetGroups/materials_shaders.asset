@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: materials_shaders
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: materials_shaders
+  m_GUID: ea4409c33ad55c74eaf21e92a5041c2e
+  m_SerializeEntries:
+  - m_GUID: 028bf71f745b12c48aeb5daf17fc248e
+    m_Address: Assets/shaders/rembrandt_nightWatch_graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ebdf37e26a9028429084ad3c0c979ef
+    m_Address: Assets/materials/ART/rembrandt_nightWatch_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13ea05cf7f054c54fbd584a4a9a91b95
+    m_Address: Assets/materials/caravaggio_Baco_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 155270ed5fc6bcc459c7b56c7f833b60
+    m_Address: Assets/materials/letter_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 155d5bfbcaa678d4ea4c90506481d850
+    m_Address: Assets/materials/ART/rembrandt_portrait_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 165d458c787e3694cbb68385cadcf771
+    m_Address: Assets/materials/ART/vermeer_maid_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23517c0397ab5ee428f70e0f743c0152
+    m_Address: Assets/materials/ART/vermeer_Letter_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2778a75f3fe0c094394d7a2f74a8dacd
+    m_Address: Assets/materials/ART/rembrandt_Wife_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28f2cb0b4c4a8f849a4cd2007adb74a2
+    m_Address: Assets/materials/caravaggio_Supper_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2af9bb3a9a8175b4cbfdea5ba041b828
+    m_Address: Assets/materials/ART/caravaggio_Baco.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c4c52f5f0d13114bafba610cf3136ea
+    m_Address: Assets/materials/maid_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bdaaa8ee91c843458ff4dd76aafb0d3
+    m_Address: Assets/materials/vermeer_Delft_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 446f2d0c0d8ee7e45a3207cabb84deca
+    m_Address: Assets/materials/vermeer_Girl_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67ed3f5541b8be545b8b26275dc4ab84
+    m_Address: Assets/materials/suspension_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 786728eefd4d11048a0e7f5921e4ea28
+    m_Address: Assets/materials/ART/vermeer_Geographer_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7adb7331bf2f6de4bad3409b2ec89f7b
+    m_Address: Assets/materials/portrait_frame_mat 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 881694339898eab478e392ff65b132c3
+    m_Address: Assets/materials/nightWatch_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b41ca8b0a3a70a34d84c8da5a29e54e5
+    m_Address: Assets/materials/rembrandt_Wife_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcf079c522ba60a4a8e81b97d239326b
+    m_Address: Assets/materials/ART/vermeer_Delft_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be6770968814cf041a62bf661a24afde
+    m_Address: Assets/materials/vermeer_astro-geo_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddfc5e8ed3499af48a5d85a74cc2b438
+    m_Address: Assets/materials/ART/vermeer_Astronomer_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e34fa62b878fb2d4d8f1879fb8009376
+    m_Address: Assets/materials/ART/vermeer_Girl_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f71b55ddab605c64da08c90ecae87fe3
+    m_Address: Assets/materials/ART/caravaggio_Supper.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d2f64241631ae484f95a33a10d54a8c2, type: 2}
+    - {fileID: 11400000, guid: d15f2566004a58e419d01b5e3a027616, type: 2}

@@ -6,7 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/museum_scene_01_public.unity
-    guid: 8b41cd8b77b955b4188029f55c9319c2
-  m_configObjects: {}
+    path: Assets/Scenes/museum_preload_scene.unity
+    guid: 38b19552283d38640adf1dfc5a3c318c
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: a477c83c7f18cd042be535d5dfc53735, type: 2}
   m_UseUCBPForAssetBundles: 0

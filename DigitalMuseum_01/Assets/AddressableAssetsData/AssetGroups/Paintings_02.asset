@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Paintings_02
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Paintings_02
+  m_GUID: 5aedcce4aaafbfd41967ef6729d97f5c
+  m_SerializeEntries:
+  - m_GUID: 9270733517660fc42aa6b151e1bd6820
+    m_Address: Assets/prefabs/paintings_prefabs/vermeer_astro-geo_w-frame_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_02
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac2ff0b4a58ba8a43a8ea7948ba0ab3c
+    m_Address: Assets/prefabs/paintings_prefabs/rembrandt_nightWatch_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_02
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad709b51057304c448544f7a2db0e43b
+    m_Address: Assets/prefabs/paintings_prefabs/vermeer_Letter_w-frame_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_02
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba8efc6037340f147a5e5232d6fba56b
+    m_Address: Assets/prefabs/paintings_prefabs/rembrandt_portrait_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_02
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c141ee64ae7dd774685aa5585bd6bee2
+    m_Address: Assets/prefabs/paintings_prefabs/vermeer_Maid_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_02
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd7986b7a89151541862f2de0542c432
+    m_Address: Assets/prefabs/paintings_prefabs/caravaggio_Baco_w-frame_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_02
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0be5c1b40465194a89579967771627d
+    m_Address: Assets/prefabs/paintings_prefabs/rembrandt_portrait_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_02
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 31d39ec995202404784161382735fb78, type: 2}
+    - {fileID: 11400000, guid: 30af85810109ead4c96bd24678466b51, type: 2}

@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: c74ee9073afa8f84883048a8d0578b1e
+  m_SerializeEntries:
+  - m_GUID: 1a09123c3d9e3e24793756bb187dcb55
+    m_Address: Assets/models/paintings/rembrandt_portrait_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22ea2c2b2f417cc4b89e4786c99200a8
+    m_Address: Assets/models/paintings/vermeer_astro-geo_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31321ba15b8f8eb4c954353edc038b1d
+    m_Address: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36ad0fa63fb49394e8e5af5483576a0e
+    m_Address: Assets/models/paintings/caravaggio_Baco_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36e335017ad71d54fbb10842863188ae
+    m_Address: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 381fd0c2d9047fe4cb165a6d7b6af1b9
+    m_Address: Assets/textures/FRAMES/rembrandt_portrait_frame_tex/standardSurface1_Mixed_AO.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4136f8e7549074b448387e1caa29ba5b
+    m_Address: Assets/textures/ART/rembrandt_Wife_2K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43beb43fd85ce2b488d58d06d5709cac
+    m_Address: Assets/models/paintings/vermeer_Letter_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4813dd8677ac8ba4f834ba586087ff0e
+    m_Address: Assets/textures/ART/vermeer_Girl_1K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ab7b7a39222dee439e03e8a6bce222a
+    m_Address: Assets/textures/ART/vermeer_astronomer_2K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 534ade02304025248b059a30b8a89354
+    m_Address: Assets/textures/ART/vermeer_Letter_2K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55789bfa410e27f4bbcb9a7c365244b5
+    m_Address: Assets/textures/FRAMES/vermeer_Girl_frame_tex/vermeer_Girl_AO.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 638aacee9569d4947a4dca58f81a4a34
+    m_Address: Assets/textures/ART/vermeer_Maid_2K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70827b14c9908fc43b5ed6347ba23caf
+    m_Address: Assets/textures/FRAMES/rembrandt_nightWatch_frame_tex/nightWatch_frame_AO.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73f4d811aa0d8e742b87a5a0ff5c78ec
+    m_Address: Assets/textures/ART/vermeer_geographer_1K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 745174ab3a3555e4997464fa0ee07bb0
+    m_Address: Assets/models/paintings/rembrandt_Wife_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85ab837f64aa78a41a9e0386d9f54687
+    m_Address: Assets/textures/FRAMES/vermeer_astro-geo_frame_tex/vermeer_astro-geo_coliur.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87082319f5ce1db42b19cffb4c97e592
+    m_Address: Assets/textures/ART/caravaggio_Supper_2K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 933532a4fcc9baf4fa0491de14d08ed7
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a18bfbd9d3e73ca41ac5a3d80794d793
+    m_Address: Assets/models/paintings/rembrandt_nightWatch_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa9fd5ee4f8d6b64cbbdb3a5940df172
+    m_Address: Assets/textures/FRAMES/rembrandt_Wife_frame_tex/rembrandt_Wife_AO.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf73dd6517bae0a458a7a3a48c025b83
+    m_Address: Assets/textures/FRAMES/vermeer_astro-geo_frame_tex/vermeer_astro-geo_AO.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4beb351d9fb751428b3b0cc3f7c9ef2
+    m_Address: Assets/models/paintings/vermeer_Girl_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6abd4b1288110d4ab8b15d843354db9
+    m_Address: Assets/models/paintings/caravaggio_Supper_w-frame.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbcb1bb840e41d640ab3becec325384e
+    m_Address: Assets/models/paintings/vermeer_Delft_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6e9a19c3678ded42a3bc431ebef7dbd
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e727de3e2b89c7b469bd9dd51b5fbaf9
+    m_Address: Assets/textures/ART/vermeer_Delft_2K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebc20f91241496a46b97d2f8529369fa
+    m_Address: Assets/models/paintings/vermeer_Maid_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd058ea513ddac44db05c2a0892b3af1
+    m_Address: Assets/textures/ART/Rembrandt_nightWatch_1K_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 455360a2b77f9ae4d93d140372e25d05, type: 2}
+    - {fileID: 11400000, guid: 7fb8e2c805251a048ad7824c71bfc92e, type: 2}

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\cameracontrollerfps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|c:\\projects\\unity\\unity_digitalmuseum_001\\unity_digitalmuseum_01\\digitalmuseum_01\\assets\\player\\playermovementcc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\player\\playermovementcc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\playermovementcc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Assets\\Player\\CameraControllerFPS.cs",
               "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\CameraControllerFPS.cs",
               "RelativeToolTip": "Assets\\Player\\CameraControllerFPS.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T14:03:00.289Z",
               "EditorCaption": ""
@@ -41,10 +41,9 @@
               "RelativeDocumentMoniker": "Assets\\Player\\PlayerMovementCC.cs",
               "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\PlayerMovementCC.cs",
               "RelativeToolTip": "Assets\\Player\\PlayerMovementCC.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T13:48:13.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T13:48:13.706Z"
             }
           ]
         }

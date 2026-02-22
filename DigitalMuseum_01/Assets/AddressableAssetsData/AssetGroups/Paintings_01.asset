@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Paintings_01
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Paintings_01
+  m_GUID: f726b96f4ff63cb4294eb9db05fed466
+  m_SerializeEntries:
+  - m_GUID: 0acd685ad0e5c4a4583784c8754d60bf
+    m_Address: Assets/prefabs/paintings_prefabs/vermeer_Girl_w-frame_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_01
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b649700cb2fd5049813b5d73bf5966e
+    m_Address: Assets/prefabs/paintings_prefabs/vermeer_Delft_w-frame_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_01
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5790b7ff6d69a0448a4ec5c1ed354a92
+    m_Address: Assets/prefabs/paintings_prefabs/rembrandt_nightWatch_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_01
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 670ad18876641f442ab307538c66c8f0
+    m_Address: Assets/prefabs/paintings_prefabs/caravaggio_Supper_w-frame.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_01
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7774992619f542f48ba23b5189f19bae
+    m_Address: Assets/prefabs/paintings_prefabs/rembrandt_Wife_w-frame_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_01
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4b2fec2a629c0641855c495800a678e
+    m_Address: Assets/Scenes/museum_scene_02_noLights.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - level
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3c6b810d56581c444a31b74bfa9c7815, type: 2}
+    - {fileID: 11400000, guid: 2af8734059092cd4485841a7add4823e, type: 2}

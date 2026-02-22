@@ -135,14 +135,14 @@ Material:
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
-    - _canvas_bulginess_scale: 0
+    - _canvas_bulginess_scale: -18.15
     - _canvas_bulginess_strength: 0
     - _canvas_tex_noise: 0.2
     - _canvas_tex_normal_strength: -4.32
     - _canvas_tex_scale: 16
     - _normal_strength: 0.1
-    - _smoothness_nuance: 1.3
-    - _smoothness_total: 1.68
+    - _smoothness_nuance: 0.86
+    - _smoothness_total: 1.28
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
