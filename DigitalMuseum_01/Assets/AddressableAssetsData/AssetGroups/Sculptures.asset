@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sculptures
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Sculptures
+  m_GUID: 3499446f1257c444b96f9aaff9aa7bb3
+  m_SerializeEntries:
+  - m_GUID: 0abfda0443574f74cb5f2aaebec53078
+    m_Address: Assets/prefabs/giambologna_fataMorgana_01 (1).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e00886b1ef1ae04fb713667f8573541
+    m_Address: Assets/textures/ART/giambologna_fataMorgana_tex/fataMorgana_sculpture_roughness.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17b9529d46fff694a8e512eed8879ebc
+    m_Address: Assets/materials/giambologna_fataMorgana_pedestal_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 399672aa9e448cb44af4de70abd8e7a8
+    m_Address: Assets/textures/ART/giambologna_fataMorgana_tex/fataMorgana_sculpture_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59b518609fba09b4685801e41db7ab62
+    m_Address: Assets/textures/bench_long_01_carpet_tex/bench_long_01_carpet_roughness.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7064fe062a9038344985ab54d7867a52
+    m_Address: Assets/textures/bench_long_01_carpet_tex/bench_long_01_carpet_colour.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 862205a0785b4324a9658fcc41bcadcc
+    m_Address: Assets/textures/bench_long_01_carpet_tex/bench_long_01_carpet_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93c9a474f40847c42846ddae19191b70
+    m_Address: Assets/textures/ART/giambologna_fataMorgana_tex/fataMorgana_sculpture_colour.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 964caea8437fd984e90423237abd6d4f
+    m_Address: Assets/materials/ART/giambologna_fataMorgana_scupture_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af7a517578ab06f41b49a4631102055f
+    m_Address: Assets/models/sculptures/giambologna_fataMorgana_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd97d43de1a16414188129f9421d2b52
+    m_Address: Assets/textures/ART/giambologna_fataMorgana_tex/fataMorgana_sculpture_AO.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1b922c59ddd6164aada42dba45fddec
+    m_Address: Assets/materials/bench_long_carpet_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f92db7cdcfebc774e808420e85931226
+    m_Address: Assets/models/bench_long_carpet_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sculptures
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1d22ff2c65d5e3446ba498115286881c, type: 2}
+    - {fileID: 11400000, guid: ddec954b6dae79c40a92a06575d489f1, type: 2}

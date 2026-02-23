@@ -116,7 +116,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - _crack_scale: 32
-    - _crack_strength: -12.38
+    - _crack_strength: -12
     - _grain_normal_scale: 2000
     - _grain_normal_strength: -1.5
     - _micro_grain_scale: 8000

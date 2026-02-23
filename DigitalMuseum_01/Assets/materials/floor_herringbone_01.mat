@@ -90,7 +90,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO_strength: 0.31
+    - _AO_strength: 0.8
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _BumpScale: 1
@@ -111,10 +111,10 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _floor_wear_normal_strength: 0.14
-    - _normal_strength: 0.3
+    - _floor_wear_normal_strength: -0.16
+    - _normal_strength: 0.1
     - _scale: 24
-    - _smoothness_strength: 5.02
+    - _smoothness_strength: 4.4
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

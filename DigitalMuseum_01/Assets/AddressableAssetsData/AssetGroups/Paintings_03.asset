@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Paintings_03
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Paintings_03
+  m_GUID: 438495a7ea9f01647b54cb837cc9f753
+  m_SerializeEntries:
+  - m_GUID: 08d996f2f1fae5d449e9017871647ee9
+    m_Address: Assets/textures/ART/velazquez_Water_1K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 090c5fa6259ce514586861b3015d551c
+    m_Address: Assets/textures/ART/hals_Lute_1K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cc6022ac414b70458849ea4d310f54c
+    m_Address: Assets/textures/ART/honthorst_Violinist_1K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f9b3aebd274ab145bdf64f877c0be5e
+    m_Address: Assets/models/paintings/honthorst_Violinist_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b91b23277290ba42a40f43457ac1e20
+    m_Address: Assets/textures/ART/honthorst_Violinist_1K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2aa8e97876aacc84eb200f2296f0d288
+    m_Address: Assets/textures/FRAMES/velazquez_Water_frame_tex
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30698e3c87122484d9daa804aa399fcb
+    m_Address: Assets/textures/FRAMES/honthorst_Violinist_frame_tex
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33ac9b02d1b2a83489de0972276ddfa8
+    m_Address: Assets/textures/FRAMES/hals_Lute_frame_tex
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3df7d03936d21c74c9c7a91fabea9086
+    m_Address: Assets/textures/ART/honthorst_Violinist_1K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46b0194a595ef0347863cc83137465a4
+    m_Address: Assets/textures/ART/velazquez_Water_1K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 498bff4dad0375d489a1bdd0df8f7a03
+    m_Address: Assets/materials/velazquez_Water_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e3c1f5314e8f0f4c90bd14be76fd327
+    m_Address: Assets/textures/ART/hals_Lute_1K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 603e3034ef914da4680351acd0e73b9e
+    m_Address: Assets/textures/ART/velazquez_Water_1K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9369b5e4f4189964db71495fffa43b0b
+    m_Address: Assets/models/paintings/hals_Lute_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 981805521ffefa5478f91eed825db156
+    m_Address: Assets/textures/ART/hals_Lute_1K_normal.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1362f553a009334a9d5345892b39830
+    m_Address: Assets/materials/hals_Lute_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4d413ca958c9934ba8f24b5bd4c5193
+    m_Address: Assets/models/paintings/velazquez_Water_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b79256fbf54ad504dae78d439f2b52d0
+    m_Address: Assets/materials/ART/hals_Lute_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b93bc1b23b2c88147b0710af911a868c
+    m_Address: Assets/materials/honthorst_Violinist_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce7acf56d0d4d494081899c8d95ee6f3
+    m_Address: Assets/materials/ART/honthorst_Violinist_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d844a0e615b9be548afbd7ddd93a9cfa
+    m_Address: Assets/materials/ART/velazquez_Water_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a24b84282f881ae49bda9fac2484c938, type: 2}
+    - {fileID: 11400000, guid: 4edaeefbff7aeaa4982262d3b124f475, type: 2}
