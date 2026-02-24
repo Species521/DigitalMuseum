@@ -1,40 +1,53 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CameraControllerFPS : MonoBehaviour
 {
     public float sensitivity = 100f;
     public Transform playerBody;
+
     private float xRotation = 0f;
+
+    public static bool IsInCursorMode { get; private set; }
 
     void Start()
     {
-        // Initial lock attempt
         LockCursor();
     }
 
     void Update()
     {
-        // 1. Re-lock if the user clicks the screen (Crucial for WebGL)
-        if (Input.GetMouseButtonDown(0))
+        HandleCursorMode();
+
+        // Stop camera movement if in cursor mode
+        if (IsInCursorMode)
+            return;
+
+        float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
+        if (playerBody != null)
+        {
+            playerBody.Rotate(Vector3.up * mouseX);
+        }
+    }
+
+    void HandleCursorMode()
+    {
+        if (Input.GetMouseButton(1)) // RMB held
+        {
+            UnlockCursor();
+            IsInCursorMode = true;
+        }
+        else
         {
             LockCursor();
-        }
-
-        // Only rotate if the cursor is actually locked
-        if (Cursor.lockState == CursorLockMode.Locked)
-        {
-            float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-            float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
-
-            xRotation -= mouseY;
-            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-
-            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-
-            if (playerBody != null)
-            {
-                playerBody.Rotate(Vector3.up * mouseX);
-            }
+            IsInCursorMode = false;
         }
     }
 
@@ -42,5 +55,11 @@ public class CameraControllerFPS : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+    }
+
+    void UnlockCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }

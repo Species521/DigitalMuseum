@@ -5,6 +5,7 @@ public class PlayerMovementCC : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed = 5f;
+    public float sprintMultiplier = 2f;   // Added
     public float jumpHeight = 1.5f;
     public float gravity = -9.81f;
 
@@ -18,18 +19,30 @@ public class PlayerMovementCC : MonoBehaviour
 
     void Update()
     {
+        // STOP movement if in cursor mode
+        if (CameraControllerFPS.IsInCursorMode)
+            return;
+
         // Ground check
         if (controller.isGrounded && velocity.y < 0f)
         {
             velocity.y = -2f;
         }
 
-        // Movement input (old input system)
+        // Movement input
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
-        controller.Move(move.normalized * moveSpeed * Time.deltaTime);
+
+        // Sprint check (Left Shift)
+        float currentSpeed = moveSpeed;
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            currentSpeed *= sprintMultiplier;
+        }
+
+        controller.Move(move.normalized * currentSpeed * Time.deltaTime);
 
         // Jump
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
