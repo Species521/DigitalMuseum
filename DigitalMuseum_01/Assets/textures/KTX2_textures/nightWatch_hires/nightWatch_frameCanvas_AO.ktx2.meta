@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 65a8dddb1e85b4e49ba7fca2d2b0c776
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 02f36c64c6584f14d98cf6b2a30507bc, type: 3}
+  layer: 0
+  faceSlice: 0
+  levelLowerLimit: 0
+  importLevelChain: 1
+  linear: 0
+  reportItems: []

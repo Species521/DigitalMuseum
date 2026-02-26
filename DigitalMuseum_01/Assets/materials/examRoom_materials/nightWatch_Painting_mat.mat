@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7240302301557591779
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,15 +20,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: rembrandt_nightWatch_mat
-  m_Shader: {fileID: -6465566751694194690, guid: 028bf71f745b12c48aeb5daf17fc248e, type: 3}
+  m_Name: nightWatch_Painting_mat
+  m_Shader: {fileID: -6465566751694194690, guid: e2df6eaff97fc1e4e9560c41025246e2, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
@@ -64,32 +77,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_edbd3f191e194fc7bc330834234b37c4_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: fd058ea513ddac44db05c2a0892b3af1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _canvas_texture:
-        m_Texture: {fileID: 2800000, guid: ffaf89b7b724ddc40bf585532bfeefe7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _color:
-        m_Texture: {fileID: 2800000, guid: aae60a3c3c91b814997bdf386b407cfe, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _height:
-        m_Texture: {fileID: 2800000, guid: aae60a3c3c91b814997bdf386b407cfe, type: 3}
+        m_Texture: {fileID: -7955813606655290988, guid: be6af02a1802c704785d4647ee64ee20, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _normal_map:
-        m_Texture: {fileID: 2800000, guid: fd058ea513ddac44db05c2a0892b3af1, type: 3}
+        m_Texture: {fileID: -7955813606655290988, guid: 6b6ec6a4e6ab5504796c0183a3cff986, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _specular:
-        m_Texture: {fileID: -7955813606655290988, guid: 88a95f8e8a7591b4299bd1d8f45067c0, type: 3}
+        m_Texture: {fileID: -7955813606655290988, guid: 6b6ec6a4e6ab5504796c0183a3cff986, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -139,14 +140,12 @@ Material:
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
-    - _canvas_bulginess_scale: 0
-    - _canvas_bulginess_strength: 0
-    - _canvas_tex_noise: 0.2
-    - _canvas_tex_normal_strength: -4.32
-    - _canvas_tex_scale: 16
-    - _normal_strength: -0.04
-    - _smoothness_nuance: 1
-    - _smoothness_total: 0.88
+    - _alpha_clipping: 0.85
+    - _canvas_bulginess_scale: 52.3
+    - _canvas_bulginess_strength: 0.1
+    - _normal_strength: -0.002
+    - _smoothness_nuance: 0.65
+    - _smoothness_total: 0.51
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -154,16 +153,3 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &3668211726029291902
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
-  version: 10
