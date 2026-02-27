@@ -39,12 +39,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "examRoom_cameraController.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\examRoom_cameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\examRoom_cameraController.cs",
-              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\examRoom_cameraController.cs",
-              "RelativeToolTip": "Assets\\Player\\examRoom_cameraController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Title": "ExamRoom_cameraController.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\ExamRoom_cameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\ExamRoom_cameraController.cs",
+              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\ExamRoom_cameraController.cs",
+              "RelativeToolTip": "Assets\\Player\\ExamRoom_cameraController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAADwv5QAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T14:49:40.193Z",
               "EditorCaption": ""

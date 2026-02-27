@@ -32,12 +32,18 @@ public class SpaceFlyCameraController : MonoBehaviour
     {
         HandleCursorToggle();
 
+        bool isPanning = Input.GetMouseButton(2);
+
         if (!cursorUnlocked)
         {
-            HandleMouseLook();
+            // Only allow look if NOT panning
+            if (!isPanning)
+                HandleMouseLook();
+
             HandleMovement();
         }
 
+        // Pan works independently of cursor state
         HandleMiddleMousePan();
     }
 
