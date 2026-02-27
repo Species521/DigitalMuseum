@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\Player\\ExamRoom_cameraController.cs",
               "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\ExamRoom_cameraController.cs",
               "RelativeToolTip": "Assets\\Player\\ExamRoom_cameraController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAADwv5QAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwC8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T14:49:40.193Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-02-26T09:16:01.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T09:16:01.825Z"
             },
             {
               "$type": "Document",

@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: examRoom_nightWatch
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: examRoom_nightWatch
+  m_GUID: b6d7208e52d7db542885b48175f5d126
+  m_SerializeEntries:
+  - m_GUID: 33c0b3a52f5578b4f9194c16f1def32c
+    m_Address: Assets/materials/examRoom_materials/nightWatch_Painting_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 482d36165f07e1043bb0edf4069bd501
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameCanvas_normal.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fba3abfe35c58148a199103fc0d12fc
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameCanvas_roughness.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51926bc0cb2076f46958ea4a23286eca
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameless_8K.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d6490cf2b5ddb248b82148e76fb445d
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameless_8K_height.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65a8dddb1e85b4e49ba7fca2d2b0c776
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameCanvas_AO.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b6ec6a4e6ab5504796c0183a3cff986
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_8K_height_02.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 742bddda47cb880419ffb4829152c112
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameWood_AO.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76e17d6929dab76409f05a99b295fa6c
+    m_Address: Assets/materials/examRoom_materials/nightWatch_frame_hires.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ebb8a2e7bc02c94183430fb585cef36
+    m_Address: Assets/shaders/examRoom_shaders/examRoom_canvas_shader.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83427274ed7f339469f52800f9d54405
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameWood_roughness.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a83a76e6af4bed945ada901afcf0a207
+    m_Address: examRoom_nightWatch_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b00e2d3b6e9210148a63063390fa7d40
+    m_Address: Assets/models/examRoom_models/nightWatch_paintingPlate_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4e7896627ba41a4a90aecd3459db8ba
+    m_Address: Assets/materials/examRoom_materials/nightWatch_canvas_hires 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be6af02a1802c704785d4647ee64ee20
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_8K_02.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2f7f36bce693154980fc62b7e0a1b83
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameCanvas_colour.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2df6eaff97fc1e4e9560c41025246e2
+    m_Address: Assets/shaders/examRoom_shaders/examRoom_Painting_graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed854135186288e45bb1b7c44d86c46b
+    m_Address: Assets/shaders/examRoom_shaders/examRoom_frame_shader.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee8ec95de9f485a4dacdbd9416fb7d74
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameWood_normal.ktx2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1513b0448f68304a94930be7673aadd
+    m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameWood_colour.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa0f093b4cb12944c9e6d9e3c0819331
+    m_Address: Assets/models/examRoom_models/nightWatch_woodFrame_02.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - examRoom_nightWatch
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 291cfa8dd80d53942a0c432d4ebdf456, type: 2}
+    - {fileID: 11400000, guid: 21dd8520a8f13f749ba1848c2c70f86c, type: 2}

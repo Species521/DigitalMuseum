@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: c74ee9073afa8f84883048a8d0578b1e
   m_currentHash:
     serializedVersion: 2
-    Hash: 3766d3fde823f94cd1c219ffde797826
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_CatalogRequestsTimeout: 0
@@ -65,6 +65,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 04aaf2ba878860841a299fa49bde049b, type: 2}
   - {fileID: 11400000, guid: 85a39f1a66629cb4cbf17cf74767ea7d, type: 2}
   - {fileID: 11400000, guid: 78b4514d4123fd7458cdd5b01981d967, type: 2}
+  - {fileID: 11400000, guid: ce3cf7a4f0a38f14f820f370bef47fee, type: 2}
   - {fileID: 11400000, guid: 50f864cf0ffcf52489201cf19cc6d6ba, type: 2}
   - {fileID: 11400000, guid: 68d8fba15d204474f9562069f105f7aa, type: 2}
   - {fileID: 11400000, guid: 370be152cc88f0943b74f3446d367c2e, type: 2}
@@ -114,6 +115,7 @@ MonoBehaviour:
     - level
     - Sculptures
     - paintings_03
+    - examRoom_nightWatch
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: eda2d868445c52d4e9c85886cadcc1bb, type: 2}

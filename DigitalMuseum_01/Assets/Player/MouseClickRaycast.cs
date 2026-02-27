@@ -25,7 +25,12 @@ public class MouseClickRaycast : MonoBehaviour
             if (Physics.Raycast(ray, out hit, maxDistance, interactLayer))
             {
                 Debug.Log("Hit: " + hit.collider.gameObject.name);
-                CustomEvent.Trigger(hit.collider.gameObject, "Interact");
+                examroom_switch_script button = hit.collider.GetComponent<examroom_switch_script>();
+
+                if (button != null)
+                {
+                    button.LoadScene();
+                }
             }
             else
             {
