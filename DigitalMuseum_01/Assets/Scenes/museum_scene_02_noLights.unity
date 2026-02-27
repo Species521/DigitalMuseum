@@ -5591,7 +5591,6 @@ GameObject:
   - component: {fileID: 1831904403}
   - component: {fileID: 1831904406}
   - component: {fileID: 1831904405}
-  - component: {fileID: 1831904404}
   m_Layer: 0
   m_Name: nightWatch_descriptive_plate
   m_TagString: Untagged
@@ -5607,35 +5606,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831904402}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.369, y: -0.099, z: 0.0039}
-  m_LocalScale: {x: 0.015497265, y: 0.01372279, z: 0.023558509}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.3278, y: -0.1035, z: 0.028000006}
+  m_LocalScale: {x: 0.09742895, y: 0.14936747, z: 0.13652813}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 273241346}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!64 &1831904404
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831904402}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!23 &1831904405
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5691,7 +5668,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831904402}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1871873407
 GameObject:
   m_ObjectHideFlags: 0
@@ -6068,7 +6045,6 @@ GameObject:
   - component: {fileID: 1970924289}
   - component: {fileID: 1970924292}
   - component: {fileID: 1970924291}
-  - component: {fileID: 1970924290}
   m_Layer: 0
   m_Name: nightWatch_informative_plate
   m_TagString: Untagged
@@ -6084,35 +6060,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970924288}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.2474, y: -0.0769, z: 0.0039}
-  m_LocalScale: {x: 0.011798843, y: 0.010447846, z: 0.016533833}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.242, y: -0.0948, z: 0.028}
+  m_LocalScale: {x: 0.12092763, y: 0.14936747, z: 0.16945706}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 273241346}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!64 &1970924290
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970924288}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!23 &1970924291
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6168,7 +6122,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970924288}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1980336295
 GameObject:
   m_ObjectHideFlags: 0
