@@ -148,7 +148,7 @@ Material:
     - _canvas_bulginess_scale: 52.3
     - _canvas_bulginess_strength: 0.1
     - _normal_offset_X: -0.0007
-    - _normal_offset_Y: -0.0005
+    - _normal_offset_Y: -0.0006
     - _normal_strength: -0.002
     - _overall_alpha: 1
     - _smoothness_nuance: 0.65
