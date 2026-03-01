@@ -46,7 +46,7 @@ MonoBehaviour:
     - paintings_01
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a4b2fec2a629c0641855c495800a678e
-    m_Address: Assets/Scenes/museum_scene_02_noLights.unity
+    m_Address: museum_scene_01
     m_ReadOnly: 0
     m_SerializedLabels:
     - level

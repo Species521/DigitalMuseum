@@ -23,15 +23,21 @@ public class MouseClickRaycast : MonoBehaviour
             Debug.DrawRay(ray.origin, ray.direction * maxDistance, Color.green, 3f);
 
             if (Physics.Raycast(ray, out hit, maxDistance, interactLayer))
-            {
-                Debug.Log("Hit: " + hit.collider.gameObject.name);
-                examroom_switch_script button = hit.collider.GetComponent<examroom_switch_script>();
+{
+    Debug.Log("Hit: " + hit.collider.gameObject.name);
 
-                if (button != null)
-                {
-                    button.LoadScene();
-                }
-            }
+    SceneSwitch button = hit.collider.GetComponent<SceneSwitch>();
+
+    if (button != null)
+    {
+        Debug.Log("SceneSwitch component FOUND");
+        button.LoadScene();
+    }
+    else
+    {
+        Debug.Log("SceneSwitch component NOT found on " + hit.collider.name);
+    }
+}
             else
             {
                 // This will tell us if the ray missed or if the script isn't firing
