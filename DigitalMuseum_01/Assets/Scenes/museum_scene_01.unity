@@ -6672,9 +6672,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1989809118}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 190cc30c96bedbb4ca327776e28048e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e89a6ba406ae5448b2ccd93c797d20b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::examroom_switch_script
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
   sceneAddress: examRoom_nightWatch_01
 --- !u!4 &1998737544 stripped
 Transform:

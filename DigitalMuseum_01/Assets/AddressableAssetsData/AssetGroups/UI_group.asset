@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI_group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: UI_group
+  m_GUID: 547341780bdd9d5418ce2920bf18e09b
+  m_SerializeEntries:
+  - m_GUID: 06913d9e05fb41f47a7faca4d0005562
+    m_Address: Assets/UI/UI_shaders/examRoom_icon_graph_01.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cb68c6baf0a3d64eb93157ead7d149d
+    m_Address: Assets/UI/image_material/gradient_horizontal_rounded_01.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e87ff06c4a2cf9459c87f72515094ff
+    m_Address: Assets/UI/materials/UI_controls/layerControl_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d84b0737520d1d41ae9bcdbbdda1593
+    m_Address: Assets/UI/materials/UI_controls/guide_icon_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20433d85df669f14fa8851fe1168e502
+    m_Address: Assets/UI/image_material/door_arrow_EXIT_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30aad290025fa9a43bfec8b0b3f2ed25
+    m_Address: Assets/UI/image_material/examRoom_guideIcon_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cc7024139fa8bf4eaa7d18ead3220e1
+    m_Address: Assets/UI/image_material/examRoom_ENTER_lable_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 402563955234fae4bafc70bdce79ee0a
+    m_Address: Assets/UI/image_material/layer_control_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a23250b2d8d742459ecb197bba36fcb
+    m_Address: Assets/UI/image_material/museum_menuIcon_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d00e044e94a07b4f995ab112926e1a8
+    m_Address: Assets/UI/image_material/museum_guideIcon_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5325fd66fe964854db7efaf074fd4b1d
+    m_Address: Assets/UI/image_material/door_arrow_ENTER_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69019482f982e6c4caf823e9e3c6185e
+    m_Address: Assets/UI/texts/rembrandt/rembrandt_nightWatch_labelINFO_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6aea96e19aa693841b3bbccc67c6add9
+    m_Address: Assets/UI/UI_shaders/informative_on.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ea6216b25633404eabef0cd485e86cd
+    m_Address: Assets/UI/materials/nightWatch_descriptive_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80ee8487d40f84c4ba9ddec87587ed08
+    m_Address: Assets/UI/texts/rembrandt/rembrandt_nightWatch_labelNAME_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8955c0cb975b8b5418e7a9468e941457
+    m_Address: Assets/UI/materials/UI_controls/lightControl_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b94827ca7fb74db439a542aa243fa9a9
+    m_Address: Assets/UI/image_material/examRoom_glowIcon_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c88e7dd2030bfd349ba206f9a0a19f22
+    m_Address: Assets/UI/UI_shaders/descriptive_on.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdc55f18d0f3bac4994dfd3b0b513af1
+    m_Address: Assets/UI/image_material/leave_control_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2c9c44f4a8410d488808cbfe2061796
+    m_Address: Assets/UI/materials/examRoom_ENTER_icon_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4be4494d45e6694fb9e406aa1770731
+    m_Address: Assets/UI/materials/nightWatch_informative_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebde700f11f14834ab357575ef3e1c6d
+    m_Address: Assets/UI/image_material/light_control_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef18247c02e311b4387cdff527bf7b4f
+    m_Address: Assets/UI/materials/UI_controls/museumMenu_icon_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3c2b4a969e883b40bffa6aec25e2e6c
+    m_Address: Assets/UI/materials/UI_controls/sceneControl_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 34189eaaca477e64da51b92cb5dc539d, type: 2}
+    - {fileID: 11400000, guid: 315df6341eeb1b4459eda5be654c9652, type: 2}

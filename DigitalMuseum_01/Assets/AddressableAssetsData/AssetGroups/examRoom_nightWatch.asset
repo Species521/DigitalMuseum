@@ -25,43 +25,43 @@ MonoBehaviour:
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameCanvas_normal.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4fba3abfe35c58148a199103fc0d12fc
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameCanvas_roughness.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 51926bc0cb2076f46958ea4a23286eca
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameless_8K.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures_large
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5d6490cf2b5ddb248b82148e76fb445d
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameless_8K_height.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 65a8dddb1e85b4e49ba7fca2d2b0c776
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameCanvas_AO.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6b6ec6a4e6ab5504796c0183a3cff986
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_8K_height_02.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures_large
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 742bddda47cb880419ffb4829152c112
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameWood_AO.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 76e17d6929dab76409f05a99b295fa6c
     m_Address: Assets/materials/examRoom_materials/nightWatch_frame_hires.mat
@@ -79,7 +79,7 @@ MonoBehaviour:
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameWood_roughness.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a83a76e6af4bed945ada901afcf0a207
     m_Address: examRoom_nightWatch_01
@@ -103,13 +103,13 @@ MonoBehaviour:
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_8K_02.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c2f7f36bce693154980fc62b7e0a1b83
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameCanvas_colour.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e2df6eaff97fc1e4e9560c41025246e2
     m_Address: Assets/shaders/examRoom_shaders/examRoom_Painting_graph.shadergraph
@@ -127,13 +127,13 @@ MonoBehaviour:
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameWood_normal.ktx2
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f1513b0448f68304a94930be7673aadd
     m_Address: Assets/textures/KTX2_textures/nightWatch_hires/nightWatch_frameWood_colour.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - examRoom_nightWatch
+    - nightWatch_textures_large
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fa0f093b4cb12944c9e6d9e3c0819331
     m_Address: Assets/models/examRoom_models/nightWatch_woodFrame_02.fbx

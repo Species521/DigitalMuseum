@@ -12,6 +12,8 @@ public class CameraControllerFPS : MonoBehaviour
 
     void Start()
     {
+        // Start in FPS (locked cursor) mode
+        IsInCursorMode = false;
         LockCursor();
     }
 
@@ -39,15 +41,15 @@ public class CameraControllerFPS : MonoBehaviour
 
     void HandleCursorMode()
     {
-        if (Input.GetMouseButton(1)) // RMB held
+        // Toggle cursor mode when RMB is pressed (not held)
+        if (Input.GetMouseButtonDown(1))
         {
-            UnlockCursor();
-            IsInCursorMode = true;
-        }
-        else
-        {
-            LockCursor();
-            IsInCursorMode = false;
+            IsInCursorMode = !IsInCursorMode;
+
+            if (IsInCursorMode)
+                UnlockCursor();
+            else
+                LockCursor();
         }
     }
 
