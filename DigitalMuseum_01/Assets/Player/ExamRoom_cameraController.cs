@@ -1,93 +1,88 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
-public class SpaceFlyCameraController : MonoBehaviour
+public class ExamRoom_cameraController : MonoBehaviour
 {
-    [Header("References")]
-    public Transform painting;
-    public float maxDistanceFromPainting = 20f;
-
     [Header("Movement")]
     public float moveSpeed = 8f;
     public float sprintMultiplier = 2f;
-
-    [Header("Pan")]
-    public float panSpeed = 0.5f;   // 👈 Public pan speed
 
     [Header("Look")]
     public float mouseSensitivity = 200f;
     public float verticalLookLimit = 85f;
 
+    [Header("Middle Mouse Pan")]
+    public float panSpeed = 0.5f;
+
     private CharacterController controller;
-    private float verticalRotation = 0f;
-    private bool cursorUnlocked = false;
+    private Transform player;
+    private float verticalRotation;
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+        controller = GetComponentInParent<CharacterController>();
+        player = transform.parent;
+
         LockCursor();
     }
 
     void Update()
     {
-        HandleCursorToggle();
+        HandleCursorMode();
 
-        bool isPanning = Input.GetMouseButton(2);
+        // If cursor is unlocked → no camera control
+        if (Cursor.lockState != CursorLockMode.Locked)
+            return;
 
-        if (!cursorUnlocked)
+        // Middle mouse = WORLD PAN ONLY
+        if (Input.GetMouseButton(2))
         {
-            // Only allow look if NOT panning
-            if (!isPanning)
-                HandleMouseLook();
-
-            HandleMovement();
+            HandleWorldPan();
+            return;
         }
 
-        // Pan works independently of cursor state
-        HandleMiddleMousePan();
+        HandleLook();
+        HandleMovement();
     }
 
-    // ---------------- CURSOR ----------------
+    // ---------------- CURSOR MODE ----------------
 
-    void HandleCursorToggle()
+    void HandleCursorMode()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButton(1))
             UnlockCursor();
-
-        if (Input.GetMouseButtonUp(1))
+        else
             LockCursor();
     }
 
     void LockCursor()
     {
-        cursorUnlocked = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     void UnlockCursor()
     {
-        cursorUnlocked = true;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
 
     // ---------------- LOOK ----------------
 
-    void HandleMouseLook()
+    void HandleLook()
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
+        // YAW → rotate PLAYER
+        if (player != null)
+            player.Rotate(Vector3.up * mouseX, Space.World);
+
+        // PITCH → rotate CAMERA
         verticalRotation -= mouseY;
         verticalRotation = Mathf.Clamp(verticalRotation, -verticalLookLimit, verticalLookLimit);
 
         transform.localRotation = Quaternion.Euler(verticalRotation, 0f, 0f);
-
-        if (transform.parent != null)
-            transform.parent.Rotate(Vector3.up * mouseX);
-        else
-            transform.Rotate(Vector3.up * mouseX, Space.World);
     }
 
     // ---------------- MOVEMENT ----------------
@@ -101,56 +96,33 @@ public class SpaceFlyCameraController : MonoBehaviour
         if (Input.GetKey(KeyCode.E)) moveY += 1f;
         if (Input.GetKey(KeyCode.Q)) moveY -= 1f;
 
-        Vector3 moveDirection =
+        Vector3 move =
             transform.right * moveX +
             transform.forward * moveZ +
             transform.up * moveY;
 
-        if (moveDirection.magnitude > 1f)
-            moveDirection.Normalize();
+        if (move.magnitude > 1f)
+            move.Normalize();
 
         float speed = moveSpeed;
 
         if (Input.GetKey(KeyCode.LeftShift))
             speed *= sprintMultiplier;
 
-        Vector3 desiredMove = moveDirection * speed * Time.deltaTime;
-
-        Vector3 currentPosition = transform.parent
-            ? transform.parent.position
-            : transform.position;
-
-        Vector3 nextPosition = currentPosition + desiredMove;
-
-        float nextDistance =
-            Vector3.Distance(nextPosition, painting.position);
-
-        if (nextDistance > maxDistanceFromPainting)
-        {
-            Vector3 toCenter =
-                (painting.position - currentPosition).normalized;
-
-            desiredMove = Vector3.Project(desiredMove, toCenter);
-        }
-
-        controller.Move(desiredMove);
+        controller.Move(move * speed * Time.deltaTime);
     }
 
-    // ---------------- MIDDLE MOUSE PAN ----------------
+    // ---------------- WORLD PAN ----------------
 
-    void HandleMiddleMousePan()
+    void HandleWorldPan()
     {
-        if (Input.GetMouseButton(2)) // Hold middle mouse
-        {
-            float mouseX = Input.GetAxis("Mouse X");
-            float mouseY = Input.GetAxis("Mouse Y");
+        float mouseX = Input.GetAxis("Mouse X");
+        float mouseY = Input.GetAxis("Mouse Y");
 
-            // World-axis only pan (absolute X and Y)
-            Vector3 pan =
-                (Vector3.right * mouseX +
-                 Vector3.up * mouseY) * panSpeed;
+        Vector3 pan =
+            (Vector3.right * mouseX +
+             Vector3.up * mouseY) * panSpeed;
 
-            controller.Move(pan);
-        }
+        controller.Move(pan);
     }
 }

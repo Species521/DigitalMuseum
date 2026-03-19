@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MouseClickRaycast : MonoBehaviour
 {
@@ -7,11 +7,8 @@ public class MouseClickRaycast : MonoBehaviour
 
     private Camera cam;
 
-    // 1) Put this at the top level of the class (like shown here)
-    //    Awake runs once when the object becomes active.
     private void Awake()
     {
-        // 2) This ensures we raycast from THIS camera, not whatever happens to be tagged MainCamera.
         cam = GetComponent<Camera>();
 
         Debug.Log($"[MouseClickRaycast] Awake on '{gameObject.name}'. " +
@@ -21,19 +18,19 @@ public class MouseClickRaycast : MonoBehaviour
 
     void Update()
     {
-        // 3) Put this at the VERY TOP of Update() to prove Update() is actually running.
-        if (Time.frameCount % 60 == 0) // log about once per second
+        if (Time.frameCount % 60 == 0)
         {
             Debug.Log($"[MouseClickRaycast] Update running on '{gameObject.name}'. " +
                       $"enabled={enabled}, activeInHierarchy={gameObject.activeInHierarchy}, " +
-                      $"IsInCursorMode={CameraControllerFPS.IsInCursorMode}");
+                      $"Cursor.lockState={Cursor.lockState}");
         }
 
-        // 4) Keep your guard, but log when it blocks interaction.
-        if (!CameraControllerFPS.IsInCursorMode)
+        // 🔥 FIX: Use Unity cursor state instead of old IsInCursorMode
+        if (Cursor.lockState != CursorLockMode.None)
         {
             if (Input.GetMouseButtonDown(0))
-                Debug.Log("[MouseClickRaycast] Click ignored because IsInCursorMode is FALSE.");
+                Debug.Log("[MouseClickRaycast] Click ignored because cursor is not unlocked.");
+
             return;
         }
 
@@ -56,17 +53,17 @@ public class MouseClickRaycast : MonoBehaviour
             {
                 Debug.Log("[MouseClickRaycast] Hit collider: " + hit.collider.gameObject.name);
 
-                // 5) Use InParent so it works whether the script is on the hit object or its parent.
-                SceneLoader button = hit.collider.GetComponent<SceneLoader>();
+                SceneLoader button =
+                    hit.collider.GetComponentInParent<SceneLoader>();
 
                 if (button != null)
                 {
-                    Debug.Log("[MouseClickRaycast] museum_switch_script FOUND. Calling LoadScene().");
+                    Debug.Log("[MouseClickRaycast] SceneLoader FOUND. Calling LoadScene().");
                     button.LoadScene();
                 }
                 else
                 {
-                    Debug.Log("[MouseClickRaycast] museum_switch_script NOT found on hit object or parents.");
+                    Debug.Log("[MouseClickRaycast] SceneLoader NOT found on hit object or parents.");
                 }
             }
             else

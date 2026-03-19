@@ -51,11 +51,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - paintings_03
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c3d5a7a5e5704548a053d6d88279a97
+    m_Address: Assets/textures/FRAMES/rembrandt_Helmet_tex
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 30698e3c87122484d9daa804aa399fcb
     m_Address: Assets/textures/FRAMES/honthorst_Violinist_frame_tex
     m_ReadOnly: 0
     m_SerializedLabels:
     - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3379ca8f0846a0d44b34831892048cf4
+    m_Address: Assets/models/paintings/rembrandt_Helmet_w-frame_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 33ac9b02d1b2a83489de0972276ddfa8
     m_Address: Assets/textures/FRAMES/hals_Lute_frame_tex
@@ -68,6 +78,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44f5e8aea00a3414ca130ef166d4c0e6
+    m_Address: Assets/materials/ART/rembrandt_Helmet_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 46b0194a595ef0347863cc83137465a4
     m_Address: Assets/textures/ART/velazquez_Water_1K_normal.jpg
@@ -87,11 +102,31 @@ MonoBehaviour:
     m_SerializedLabels:
     - paintings_03
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cecbb6638a64ed4ba4f5830b6a7fe81
+    m_Address: Assets/textures/FRAMES/rembrandt_Helmet_tex/rembrandt_Helmet_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e82194aae61700449148578c4777c50
+    m_Address: Assets/textures/FRAMES/rembrandt_Helmet_tex/rembrandt_Helmet_colour.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 603e3034ef914da4680351acd0e73b9e
     m_Address: Assets/textures/ART/velazquez_Water_1K.jpg
     m_ReadOnly: 0
     m_SerializedLabels:
     - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62ae99449252d9e48a66ba3992bf60fd
+    m_Address: Assets/textures/FRAMES/rembrandt_Helmet_tex/rembrandt_Helmet_roughness.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88ffbd6134eeeb84c85808ee24c7263d
+    m_Address: Assets/materials/rembrandt_Helmet_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9369b5e4f4189964db71495fffa43b0b
     m_Address: Assets/models/paintings/hals_Lute_w-frame_01.fbx
@@ -104,6 +139,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af995425a27b77944839ff48510b51bd
+    m_Address: Assets/textures/ART/rembrandt_Helmet_2K_normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b1362f553a009334a9d5345892b39830
     m_Address: Assets/materials/hals_Lute_frame_mat.mat
@@ -129,6 +169,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - paintings_03
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9e550657c843f34eb60ca83cc70cf99
+    m_Address: Assets/textures/ART/rembrandt_Helmet_2K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ce7acf56d0d4d494081899c8d95ee6f3
     m_Address: Assets/materials/ART/honthorst_Violinist_mat.mat
     m_ReadOnly: 0
@@ -140,6 +185,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - paintings_03
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f00ab6fe850f43f40b525b5a25d7c0a9
+    m_Address: Assets/textures/ART/rembrandt_Helmet_2K_height.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9f64c0c44cbf0746a9e3ae3d6b4efde
+    m_Address: Assets/textures/FRAMES/rembrandt_Helmet_tex/rembrandt_Helmet_AO.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 6ab9b83e4a46d44438c3ecc06b05bde5, type: 2}

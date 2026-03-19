@@ -63,6 +63,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - default
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4490dcf61793f4f4d84b85c446750980
+    m_Address: Assets/audio/Johann_Sebastian_Bach_-_Concerto_for_Two_Violins_in_D_minor_-_1._Vivace.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4813dd8677ac8ba4f834ba586087ff0e
     m_Address: Assets/textures/ART/vermeer_Girl_1K.jpg
     m_ReadOnly: 0
@@ -110,6 +115,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7593ed0ce68dbc84d88a6ed2b98e7777
+    m_Address: Assets/scripts/museum_UITrigger.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 85ab837f64aa78a41a9e0386d9f54687
     m_Address: Assets/textures/FRAMES/vermeer_astro-geo_frame_tex/vermeer_astro-geo_coliur.jpg
@@ -163,6 +173,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9edffd536f7cd34886042bcd678bbb2
+    m_Address: Assets/audio/footsteps_hallway_slow.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dbcb1bb840e41d640ab3becec325384e
     m_Address: Assets/models/paintings/vermeer_Delft_w-frame_01.fbx

@@ -80,6 +80,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6279348d0a975ec42805b5d875f60976
+    m_Address: Assets/textures/architecture/wall_textures/wallpaper_ornament_04.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 67ed3f5541b8be545b8b26275dc4ab84
     m_Address: Assets/materials/suspension_mat.mat
     m_ReadOnly: 0
@@ -97,6 +102,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 881694339898eab478e392ff65b132c3
     m_Address: Assets/materials/nightWatch_frame_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f911ea15733afd44a7ec482260dcb64
+    m_Address: Assets/textures/architecture/wall_textures/wallpaper_ornament_01.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0137aac335568b4586ec09db9984d03
+    m_Address: Assets/textures/architecture/wall_textures/wallpaper_ornament_02.jpg
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -122,6 +137,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e34fa62b878fb2d4d8f1879fb8009376
     m_Address: Assets/materials/ART/vermeer_Girl_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea7c26e5650d2224ba800ef5a8c4878e
+    m_Address: Assets/textures/architecture/wall_textures/wallpaper_ornament_03..jpg
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

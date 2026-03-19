@@ -33,6 +33,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - UI
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cca375e516246946822274b46424f2c
+    m_Address: Assets/UI/image_material/audio_control_icon_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1d84b0737520d1d41ae9bcdbbdda1593
     m_Address: Assets/UI/materials/UI_controls/guide_icon_mat.mat
     m_ReadOnly: 0
@@ -105,11 +110,27 @@ MonoBehaviour:
     m_SerializedLabels:
     - UI
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8860426436dc5cd4eb1fb5ebd4d6c005
+    m_Address: Assets/UI/image_material/museum_loading_screen.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8955c0cb975b8b5418e7a9468e941457
     m_Address: Assets/UI/materials/UI_controls/lightControl_mat.mat
     m_ReadOnly: 0
     m_SerializedLabels:
     - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 923f37d31c29f1648a5d9117617a400c
+    m_Address: Assets/UI/image_material/audio_sliders_icon_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a675e3e961e0a90478d976dcb1e98ab0
+    m_Address: Assets/prefabs/UI_prefabs/museum_painting_UI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b94827ca7fb74db439a542aa243fa9a9
     m_Address: Assets/UI/image_material/examRoom_glowIcon_01.png
@@ -125,6 +146,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cdc55f18d0f3bac4994dfd3b0b513af1
     m_Address: Assets/UI/image_material/leave_control_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf921984edff21440a0915958dea942d
+    m_Address: Assets/UI/image_material/examRoom_loading_screen.jpg
     m_ReadOnly: 0
     m_SerializedLabels:
     - UI

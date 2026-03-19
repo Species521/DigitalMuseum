@@ -72,6 +72,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _canvas_distortion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _canvas_texture:
         m_Texture: {fileID: 2800000, guid: e9c4975ec0daa0844bd473ae7f013558, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -86,6 +90,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _normal_map:
         m_Texture: {fileID: 2800000, guid: b39d685319002bf43aae4325e7e2607b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _specular:
+        m_Texture: {fileID: 2800000, guid: 3370f0787c0ee3b458a77904689e1bb7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -137,12 +145,14 @@ Material:
     - _ZWrite: 1
     - _canvas_bulginess_scale: 7.8
     - _canvas_bulginess_strength: 1
+    - _canvas_distortion_strength: 0
     - _canvas_tex_noise: -2.54
     - _canvas_tex_normal_strength: 0.15
     - _canvas_tex_scale: 3.84
     - _normal_strength: -0.1
     - _smoothness_nuance: 0.91
-    - _smoothness_total: 2.55
+    - _smoothness_total: 1.96
+    - _surface_normal_strength: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
