@@ -3,7 +3,43 @@
   "WorkspaceRootPath": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|c:\\projects\\unity\\unity_digitalmuseum_001\\unity_digitalmuseum_01\\digitalmuseum_01\\assets\\player\\playermovementcc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|c:\\projects\\unity\\unity_digitalmuseum_001\\unity_digitalmuseum_01\\digitalmuseum_01\\assets\\scripts\\android\\mobileorthocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\android\\mobileorthocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\scripts\\android\\safeareapanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\android\\safeareapanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\scripts\\android\\mobilefpscontroller_examroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\android\\mobilefpscontroller_examroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\scripts\\streaming_test_scripts\\tilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\streaming_test_scripts\\tilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\player\\cameracontrollerfps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\cameracontrollerfps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\scripts\\streaming_test_scripts\\gridgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\streaming_test_scripts\\gridgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\player\\mouseclickraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\mouseclickraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\scripts\\streaming_test_scripts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\streaming_test_scripts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\player\\playermovementcc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\playermovementcc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\optimizations_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\player\\mouseclickraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\mouseclickraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\player\\examroom_cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\examroom_cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\player\\cameracontrollerfps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\cameracontrollerfps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76450D2D-B07A-86E3-DC1A-9F13534D14C1}|Assembly-CSharp.csproj|C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\assets\\scripts\\museumloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +74,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SafeAreaPanel.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\ANDROID\\SafeAreaPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ANDROID\\SafeAreaPanel.cs",
+              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\ANDROID\\SafeAreaPanel.cs",
+              "RelativeToolTip": "Assets\\scripts\\ANDROID\\SafeAreaPanel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T06:58:43.667Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MobileOrthoController.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\ANDROID\\MobileOrthoController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ANDROID\\MobileOrthoController.cs",
+              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\ANDROID\\MobileOrthoController.cs",
+              "RelativeToolTip": "Assets\\scripts\\ANDROID\\MobileOrthoController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T16:09:32.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MobileFPSController_examRoom.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\ANDROID\\MobileFPSController_examRoom.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ANDROID\\MobileFPSController_examRoom.cs",
+              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\ANDROID\\MobileFPSController_examRoom.cs",
+              "RelativeToolTip": "Assets\\scripts\\ANDROID\\MobileFPSController_examRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:32:59.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TileManager.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\streaming_test_scripts\\TileManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\streaming_test_scripts\\TileManager.cs",
+              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\streaming_test_scripts\\TileManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\streaming_test_scripts\\TileManager.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAwMIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T08:31:37.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tile.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\streaming_test_scripts\\tile.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\streaming_test_scripts\\tile.cs",
+              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\streaming_test_scripts\\tile.cs",
+              "RelativeToolTip": "Assets\\scripts\\streaming_test_scripts\\tile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T08:23:54.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-03-12T11:49:52.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PlayerMovementCC.cs",
               "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\PlayerMovementCC.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\PlayerMovementCC.cs",
@@ -58,12 +160,11 @@
               "RelativeToolTip": "Assets\\Player\\PlayerMovementCC.cs",
               "ViewState": "AgIAAHgAAAAAAAAAAAAIwIsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T14:00:43.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T14:00:43.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Optimizations_script.cs",
               "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\Optimizations_script.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Optimizations_script.cs",
@@ -75,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "MuseumLoader.cs",
               "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\MuseumLoader.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\MuseumLoader.cs",
@@ -87,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\SceneLoader.cs",
@@ -99,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "museum_switch_script.cs",
               "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\museum_switch_script.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\museum_switch_script.cs",
@@ -111,19 +212,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "CameraControllerFPS.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\CameraControllerFPS.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\CameraControllerFPS.cs",
+              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\CameraControllerFPS.cs",
+              "RelativeToolTip": "Assets\\Player\\CameraControllerFPS.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:03:00.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GridGenerator.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\streaming_test_scripts\\GridGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\streaming_test_scripts\\GridGenerator.cs",
+              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\streaming_test_scripts\\GridGenerator.cs",
+              "RelativeToolTip": "Assets\\scripts\\streaming_test_scripts\\GridGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T10:32:23.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MouseClickRaycast.cs",
               "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\MouseClickRaycast.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\MouseClickRaycast.cs",
               "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\MouseClickRaycast.cs",
               "RelativeToolTip": "Assets\\Player\\MouseClickRaycast.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAIwEoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T11:41:11.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "examroom_switch_script.cs",
               "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\scripts\\examroom_switch_script.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\examroom_switch_script.cs",
@@ -135,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "ExamRoom_cameraController.cs",
               "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\ExamRoom_cameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\ExamRoom_cameraController.cs",
@@ -144,18 +269,6 @@
               "ViewState": "AgIAADgAAAAAAAAAAAAwwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T14:49:40.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CameraControllerFPS.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\CameraControllerFPS.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\CameraControllerFPS.cs",
-              "ToolTip": "C:\\PROJECTS\\Unity\\Unity_DigitalMuseum_001\\Unity_DigitalMuseum_01\\DigitalMuseum_01\\Assets\\Player\\CameraControllerFPS.cs",
-              "RelativeToolTip": "Assets\\Player\\CameraControllerFPS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T14:03:00.289Z"
             }
           ]
         }

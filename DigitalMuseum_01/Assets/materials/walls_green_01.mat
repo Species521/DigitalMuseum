@@ -118,6 +118,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     - _crack_scale: 32
     - _crack_strength: -24
@@ -137,7 +138,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _base_colour: {r: 0.48414698, g: 0.6603774, b: 0.43298328, a: 1}
+    - _base_colour: {r: 0.51298714, g: 0.735849, b: 0.46164113, a: 1}
     - _colour: {r: 0.32395867, g: 0.54632705, b: 0.75471693, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

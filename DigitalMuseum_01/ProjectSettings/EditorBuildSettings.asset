@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/museum_preload_scene.unity
-    guid: 38b19552283d38640adf1dfc5a3c318c
+    path: Assets/Scenes/ANDROID_Scenes/museum_ANDROID_03.unity
+    guid: d2ea689c945ea73458ac0cad578242ed
+  - enabled: 1
+    path: Assets/Scenes/ANDROID_Scenes/examRoom_nightWatch_ANDROID.unity
+    guid: 915a02196fa542647adf1c96edf5346e
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 34a230df36d913745b0b54f88536643f, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: a477c83c7f18cd042be535d5dfc53735, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e5a894ba4936147419080f339c065dee, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f45e705e93658734682ec46aeefeaca1, type: 2}
   m_UseUCBPForAssetBundles: 0
