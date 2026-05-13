@@ -62,7 +62,7 @@ MonoBehaviour:
     m_Value: 0
   contrast:
     m_OverrideState: 1
-    m_Value: -4.8
+    m_Value: 0
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -298,7 +298,7 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 0.9609947, y: 0.9455672, z: 1, w: -0.05655042}
   midtones:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: 0}
@@ -549,10 +549,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.158
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.738
   rounded:
     m_OverrideState: 1
     m_Value: 0
@@ -571,7 +571,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   gaussianStart:
     m_OverrideState: 1
     m_Value: 10
@@ -623,10 +623,10 @@ MonoBehaviour:
     m_Value: 1.09
   intensity:
     m_OverrideState: 1
-    m_Value: 0.82
+    m_Value: 0
   scatter:
     m_OverrideState: 1
-    m_Value: 0.59
+    m_Value: 0.453
   clamp:
     m_OverrideState: 1
     m_Value: 65472
@@ -664,7 +664,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.08
+    m_Value: 0
 --- !u!114 &5502574400317524277
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -720,13 +720,13 @@ MonoBehaviour:
   active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 0.9796003, y: 1, z: 1, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: -0.014825799}
+    m_Value: {x: 1, y: 1, z: 1, w: -0.09022637}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 1}
+    m_Value: {x: 0.8119227, y: 0.8451535, z: 1, w: 1}
 --- !u!114 &7175739423313536143
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -746,7 +746,7 @@ MonoBehaviour:
     dimension: 1
   contribution:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
 --- !u!114 &8317007443626695123
 MonoBehaviour:
   m_ObjectHideFlags: 3

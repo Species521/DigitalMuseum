@@ -105,6 +105,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     - _crack_scale: 32
     - _crack_strength: -18.03
@@ -113,7 +114,7 @@ Material:
     - _micro_grain_scale: 8000
     - _micro_grain_strength: 6
     - _noise_normal_scale: 42.91
-    - _noise_normal_strength: -28.1
+    - _noise_normal_strength: -11.72
     - _ornament_offset: 0
     - _ornament_rotation: -90
     - _ornament_scale: 20

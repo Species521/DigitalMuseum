@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - examRoom_nightWatch_ANDROID
+  - examRoom_girlEarring_ANDROID
   layers:
   - Default
   - TransparentFX

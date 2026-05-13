@@ -149,10 +149,12 @@ Material:
     - _canvas_tex_noise: -2.54
     - _canvas_tex_normal_strength: 0.15
     - _canvas_tex_scale: 3.84
+    - _image_brightness: 0.76
+    - _image_contrast: 0.92
     - _normal_strength: -0.08
     - _smoothness_nuance: 1.22
-    - _smoothness_total: 2.33
-    - _surface_normal_strength: 0
+    - _smoothness_total: 1
+    - _surface_normal_strength: -4.13
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

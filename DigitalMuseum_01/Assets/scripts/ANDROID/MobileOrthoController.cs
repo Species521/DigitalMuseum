@@ -57,9 +57,11 @@ public class MobileOrthoController : MonoBehaviour
     {
         if (touch.phase != UnityEngine.InputSystem.TouchPhase.Moved) return;
 
+        // Scale pan speed based on current zoom level (more zoomed in = slower pan)
         float scaledSpeed = panSpeed * cam.orthographicSize;
 
-        Vector3 newPos = transform.position - new Vector3(touch.delta.x * scaledSpeed, touch.delta.y * scaledSpeed, 0f);
+        // Move camera - X inverted so drag left moves camera right (and vice versa)
+        Vector3 newPos = transform.position - new Vector3(-touch.delta.x * scaledSpeed, touch.delta.y * scaledSpeed, 0f);
 
         // Clamp to bounds
         newPos.x = Mathf.Clamp(newPos.x, minBounds.x, maxBounds.x);
@@ -76,6 +78,7 @@ public class MobileOrthoController : MonoBehaviour
         if (t0.phase != UnityEngine.InputSystem.TouchPhase.Moved &&
             t1.phase != UnityEngine.InputSystem.TouchPhase.Moved) return;
 
+        // Calculate previous and current distance between touches
         Vector2 prevPos0 = t0.screenPosition - t0.delta;
         Vector2 prevPos1 = t1.screenPosition - t1.delta;
 
@@ -83,6 +86,7 @@ public class MobileOrthoController : MonoBehaviour
         float currentDistance = Vector2.Distance(t0.screenPosition, t1.screenPosition);
         float deltaDistance = currentDistance - prevDistance;
 
+        // Adjust orthographic size (negative delta = pinch in = zoom in = smaller size)
         cam.orthographicSize = Mathf.Clamp(
             cam.orthographicSize - (deltaDistance * zoomSensitivity),
             minOrthoSize,
@@ -90,7 +94,7 @@ public class MobileOrthoController : MonoBehaviour
         );
     }
 
-    // Visualise the bounds in the Editor for easy setup
+    // Visualize the bounds in the Editor for easy setup
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.cyan;

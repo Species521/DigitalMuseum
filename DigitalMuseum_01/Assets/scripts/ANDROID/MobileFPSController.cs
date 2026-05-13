@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.EnhancedTouch;
+using System.Collections.Generic;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
 [RequireComponent(typeof(CharacterController))]
@@ -66,9 +68,23 @@ public class MobileFPSController : MonoBehaviour
             ClampARLocalTranslation();
     }
 
+    // New Helper: Checks if a specific touch is over any UI element
+    private bool IsTouchOverUI(Touch touch)
+    {
+        if (EventSystem.current == null) return false;
+
+        PointerEventData eventData = new PointerEventData(EventSystem.current)
+        {
+            position = touch.screenPosition
+        };
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, results);
+        return results.Count > 0;
+    }
+
     private void HandleInput()
     {
-        // First, handle assignments for new touches
         foreach (var touch in Touch.activeTouches)
         {
             if (touch.phase == UnityEngine.InputSystem.TouchPhase.Began)
@@ -82,21 +98,20 @@ public class MobileFPSController : MonoBehaviour
                     moveTouchId = touch.touchId;
                     moveStartPos = touch.screenPosition;
                 }
-                else if (!isOnTouchpad && lookTouchId == -1)
+                // FIX: Only allow a "Look" touch if it is NOT on the touchpad AND NOT over any other UI (like the slider)
+                else if (!isOnTouchpad && !IsTouchOverUI(touch) && lookTouchId == -1)
                 {
                     lookTouchId = touch.touchId;
                 }
             }
         }
 
-        // Logic branching: Zoom (2+ fingers) vs Move/Look (1 finger)
         if (Touch.activeTouches.Count >= 2)
         {
             HandlePinchZoom();
         }
         else
         {
-            // Process individual touches only if we aren't zooming
             foreach (var touch in Touch.activeTouches)
             {
                 if (touch.touchId == moveTouchId) ProcessMovement(touch);
@@ -104,7 +119,6 @@ public class MobileFPSController : MonoBehaviour
             }
         }
 
-        // Cleanup
         foreach (var touch in Touch.activeTouches)
         {
             if (touch.phase == UnityEngine.InputSystem.TouchPhase.Ended || touch.phase == UnityEngine.InputSystem.TouchPhase.Canceled)
@@ -119,7 +133,6 @@ public class MobileFPSController : MonoBehaviour
     {
         if (camComponent == null) return;
 
-        // Use the first two active touches for pinch
         var t0 = Touch.activeTouches[0];
         var t1 = Touch.activeTouches[1];
 
@@ -132,7 +145,6 @@ public class MobileFPSController : MonoBehaviour
             float currentDistance = Vector2.Distance(t0.screenPosition, t1.screenPosition);
             float deltaDistance = currentDistance - prevDistance;
 
-            // Update FOV (Zoom in when fingers spread apart)
             float newFOV = camComponent.fieldOfView - (deltaDistance * zoomSensitivity);
             camComponent.fieldOfView = Mathf.Clamp(newFOV, minFOV, maxFOV);
         }
@@ -159,9 +171,10 @@ public class MobileFPSController : MonoBehaviour
         if (touch.phase == UnityEngine.InputSystem.TouchPhase.Moved)
         {
             Vector2 delta = touch.delta;
-            transform.Rotate(Vector3.up, delta.x * lookSensitivity);
 
-            cameraPitch -= delta.y * lookSensitivity;
+            transform.Rotate(Vector3.up, -delta.x * lookSensitivity);
+
+            cameraPitch += delta.y * lookSensitivity;
             cameraPitch = Mathf.Clamp(cameraPitch, minPitch, maxPitch);
 
             if (mainCamera != null)

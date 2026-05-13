@@ -145,7 +145,7 @@ Material:
     - _color_bias_strength: 1
     - _colour_strength: 3.88
     - _normal_strength: 1
-    - _specular_strength: 0.32
+    - _specular_strength: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

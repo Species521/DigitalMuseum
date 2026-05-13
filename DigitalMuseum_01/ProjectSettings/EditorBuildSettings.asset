@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ANDROID_Scenes/examRoom_nightWatch_ANDROID.unity
     guid: 915a02196fa542647adf1c96edf5346e
+  - enabled: 1
+    path: Assets/Scenes/ANDROID_Scenes/examRoom_girlEarring_ANDROID.unity
+    guid: a03057935da19624c87aef09c43ec48a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 34a230df36d913745b0b54f88536643f, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: a477c83c7f18cd042be535d5dfc53735, type: 2}

@@ -148,7 +148,7 @@ Material:
     - _glowing_strength: 1
     - _icon_visibility: 1
     - _offset: -0.04
-    - _transparency: 0.42895666
+    - _transparency: 0.6
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
