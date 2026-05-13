@@ -751,6 +751,11 @@ Transform:
   - {fileID: 1774824318}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &288933066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6691106146890668158, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+  m_PrefabInstance: {fileID: 8718435934359464630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &314090995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,6 +1946,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755621681}
   m_CullTransparentMesh: 1
+--- !u!1 &800330361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7351166897662217250, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+  m_PrefabInstance: {fileID: 8718435934359464630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &800330366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800330361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 6702af30c5d6ff54d9f052c1c10286d0, type: 2}
+--- !u!114 &800330367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800330361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"button_inactive_obj","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"button_active_obj","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1785993714}
+    - {fileID: 288933066}
 --- !u!1 &838732026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2812,7 +2857,7 @@ Transform:
   m_GameObject: {fileID: 1617399423}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.522, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3213,6 +3258,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b00e2d3b6e9210148a63063390fa7d40, type: 3}
   m_PrefabInstance: {fileID: 1774824317}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1785993714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4014188910179518481, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+  m_PrefabInstance: {fileID: 8718435934359464630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1821041191
 GameObject:
   m_ObjectHideFlags: 0
@@ -3517,8 +3567,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2074545603}
   - component: {fileID: 2074545604}
+  - component: {fileID: 2074545606}
+  - component: {fileID: 2074545605}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: height_slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3590,13 +3642,46 @@ MonoBehaviour:
   m_FillRect: {fileID: 1993152421}
   m_HandleRect: {fileID: 2067196645}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 0.3
+  m_MaxValue: 7
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2074545605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074545602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d40d85fd7bdde00449059ade30a47033, type: 2}
+--- !u!114 &2074545606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074545602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"main_camera_obj","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1617399423}
 --- !u!1001 &8718435934359464630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3605,10 +3690,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 602718523907495812, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1191027600431221284, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1617399424}
+    - target: {fileID: 1556666955232982806, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175681275023713914, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7351166897662217250, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
       propertyPath: m_Name
       value: Canvas_annotations_01
@@ -3693,10 +3790,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7865100280874102608, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1556666955232982806, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+    - {fileID: 602718523907495812, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+    - {fileID: 7865100280874102608, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+    - {fileID: 5175681275023713914, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7351166897662217250, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 800330367}
+    - targetCorrespondingSourceObject: {fileID: 7351166897662217250, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 800330366}
   m_SourcePrefab: {fileID: 100100000, guid: 349f2c1b94a0b9341a4c306e7ac0c756, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
