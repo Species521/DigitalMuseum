@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: nightWatch_Painting_mat
-  m_Shader: {fileID: -6465566751694194690, guid: e2df6eaff97fc1e4e9560c41025246e2, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: f6225df5a15a78c40a2179379831cdbb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -144,12 +144,12 @@ Material:
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
-    - _alpha_clipping: 0.85
+    - _alpha_clipping: 0
     - _canvas_bulginess_scale: 52.3
     - _canvas_bulginess_strength: 0
     - _normal_offset_X: 0
     - _normal_offset_Y: 0
-    - _normal_strength: -0.0005
+    - _normal_strength: 1.31
     - _overall_alpha: 1
     - _smoothness_nuance: 0.65
     - _smoothness_total: 0.47
